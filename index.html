@@ -36,14 +36,14 @@
       vr-mode-ui="enabled: false;"
       renderer="logarithmicDepthBuffer: true;"
       embedded
-      arjs="smoothCount: 100; smoothTolerance: 0.01; smoothThreshold: 5; trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
+      arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
       <a-nft
         type="nft"
         url="https://tommydemarco.github.io/ar-tracking/tracking-assets/tracking"
         smooth="true"
-        smoothCount="10"
-        smoothTolerance=".01"
-        smoothThreshold="5"
+        smoothCount="100"
+        smoothTolerance=".001"
+        smoothThreshold="20"
       >
         <a-box
           position="200 200 0"
