@@ -1,4 +1,3 @@
-# ar-tracking
-### AR Tracking testing repository
+# AR Image Tracking (POC)
 
-Built with a-frame
+With A-Frame.js and AR.js
